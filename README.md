@@ -4,4 +4,4 @@ This repo contains the data and code used to conduct the analyses in Amuedo-Dora
 
 ## Setup
 
-The combined dataset described in the manuscript is located in the **Data** folder. This file will need to be unzipped. The program used to conduct the analyses described in the manuscript is located in the **Programs** folder. The output generated from this program is included in the **Output** folder. 
+The combined dataset described in the manuscript is located in the **Data** folder. This file will need to be unzipped. The program used to conduct the analyses described in the manuscript is located in the **Programs** folder.
