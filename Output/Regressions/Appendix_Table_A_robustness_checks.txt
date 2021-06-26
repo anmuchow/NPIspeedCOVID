@@ -1,0 +1,26 @@
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	SAH or BC: Alt NPI speed #1	SAH or BC: Alt NPI speed #2	SAH or BC: Pop weighted baseline	SAH or BC: Exclude NY	SAH or BC: Exclude NE region	SAH or BC: Only NE region
+							
+int_sah_speed_nat_both_lag14	sah (14 day lag) x # days btwn sah and 1st day cases > 7.3 (nat avg)	-0.0006***					
+		(0.0002)					
+int_bc_speed_nat_both_lag14	bc (14 day lag) x # days btwn bc and 1st day cases > 7.3 (nat avg)	-0.0008***					
+		(0.0002)					
+int_other_speed_dbl_both_lag14	other (14 day lag) x # days btwn other and 1st day-to-day infection doubling	-0.0013***	-0.0016***	-0.0028***	-0.0010***	-0.0009***	-0.0028**
+		(0.0001)	(0.0001)	(0.0004)	(0.0001)	(0.0001)	(0.0014)
+state_test_results_pc	Total tests by state per 100,000	0.0003***	0.0002***	0.0006***	0.0003***	0.0002***	0.0001*
+		(0.0000)	(0.0000)	(0.0001)	(0.0000)	(0.0000)	(0.0001)
+int_sah_speed_cnty_both_lag14	sah (14 day lag) x # days btwn sah and 1st day cases pc > 1.85 (cnty avg)		-0.0033***				
+			(0.0006)				
+int_bc_speed_cnty_both_lag14	bc (14 day lag) x # days btwn bc and 1st day cases pc > 1.85 (cnty avg)		-0.0010**				
+			(0.0004)				
+int_sah_speed_dbl_both_lag14	sah (14 day lag) x # days btwn sah and 1st day-to-day infection doubling			-0.0028***	-0.0007***	-0.0004**	-0.0101***
+				(0.0008)	(0.0002)	(0.0002)	(0.0022)
+int_bc_speed_dbl_both_lag14	bc (14 day lag) x # days btwn bc and 1st day-to-day infection doubling			-0.0003	-0.0006***	-0.0005***	-0.0048***
+				(0.0006)	(0.0002)	(0.0002)	(0.0015)
+Constant	Constant	0.0138	0.0191*	-0.0253	0.0043	0.0237*	0.1697***
+		(0.0114)	(0.0114)	(0.0415)	(0.0121)	(0.0124)	(0.0461)
+							
+Observations		215,073	215,073	215,073	211,071	200,721	14,352
+R-squared		0.089	0.089	0.273	0.084	0.072	0.253
+Robust standard errors in parentheses							
+*** p<0.01, ** p<0.05, * p<0.1							

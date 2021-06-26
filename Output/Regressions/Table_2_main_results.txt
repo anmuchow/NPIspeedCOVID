@@ -1,0 +1,18 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	SAH or BC: Baseline	SAH or BC: Control for testing	SAH or BC: Control for other NPI speed	SAH or BC: Control for mobility
+					
+int_sah_bc_speed_dbl_both_lag14	sah_bc (14 day lag) x # days btwn sah_bc and 1st day-to-day infection doubling	-0.0019***	-0.0020***	-0.0012***	-0.0013***
+		(0.0002)	(0.0002)	(0.0002)	(0.0002)
+state_test_results_pc	Total tests by state per 100,000		0.0003***	0.0003***	0.0003***
+			(0.0000)	(0.0000)	(0.0000)
+int_other_speed_dbl_both_lag14	other (14 day lag) x # days btwn other and 1st day-to-day infection doubling			-0.0012***	-0.0018***
+				(0.0001)	(0.0001)
+m50	m50				0.0000
+					(0.0000)
+Constant	Constant	0.0755***	-0.0082	0.0099	0.0287*
+		(0.0005)	(0.0113)	(0.0114)	(0.0161)
+					
+Observations		215,073	215,073	215,073	141,480
+R-squared		0.083	0.088	0.088	0.127
+Robust standard errors in parentheses					
+*** p<0.01, ** p<0.05, * p<0.1					

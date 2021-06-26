@@ -1,0 +1,21 @@
+Dependent variable: COVID deaths per 100K					
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	Baseline	Control for testing	Control for other NPIs	Control for mobility
+					
+int_bc_speed_dbl_both_lag14	bc (14 day lag) x # days btwn bc and 1st day-to-day infection doubling	-0.0016***	-0.0012***	-0.0006***	-0.0007***
+		(0.0002)	(0.0002)	(0.0002)	(0.0002)
+int_sah_speed_dbl_both_lag14	sah (14 day lag) x # days btwn sah and 1st day-to-day infection doubling	-0.0008***	-0.0010***	-0.0008***	-0.0008***
+		(0.0002)	(0.0002)	(0.0002)	(0.0002)
+state_test_results_pc	Total tests by state per 100,000		0.0003***	0.0003***	0.0003***
+			(0.0000)	(0.0000)	(0.0000)
+int_other_speed_dbl_both_lag14	other (14 day lag) x # days btwn other and 1st day-to-day infection doubling			-0.0011***	-0.0016***
+				(0.0001)	(0.0001)
+m50	m50				0.0000
+					(0.0000)
+Constant	Constant	0.0796***	-0.0023	0.0108	0.0300*
+		(0.0008)	(0.0114)	(0.0114)	(0.0161)
+					
+Observations		215,073	215,073	215,073	141,480
+R-squared		0.083	0.088	0.088	0.127
+Robust standard errors in parentheses					
+*** p<0.01, ** p<0.05, * p<0.1					

@@ -1,0 +1,21 @@
+Exploring mechanisms							
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	Contagion: COVID infections per 100K	Contagion: COVID infections per 100K (excl NY)	Contagion: COVID infections per 100K (excl NE region)	Contagion: non-COVID deaths in state	Contagion: non-COVID deaths in state (excl NY)	Contagion: non-COVID deaths in state (excl NE region)
+							
+int_sah_bc_speed_dbl_both_lag14		-0.0164***	-0.0158***	-0.0125***			
+		(0.0024)	(0.0024)	(0.0023)			
+state_test_results_pc	state_test_results_pc	0.0028***	0.0028***	0.0012**	-0.0000	-0.0000	-0.0000
+		(0.0005)	(0.0005)	(0.0005)	(0.0000)	(0.0000)	(0.0000)
+int_other_speed_dbl_both_lag14		-0.0243***	-0.0234***	-0.0205***			
+		(0.0019)	(0.0018)	(0.0018)			
+int_sah_bc_speed_dbl_state_lag14	State sah_bc (14 day lag) x # days btwn sah_bc and 1st week-to-week infection do				0.0136	0.0138	0.0076
+					(0.0224)	(0.0231)	(0.0217)
+int_other_speed_dbl_state_lag14	State other (14 day lag) x # days btwn other and 1st week-to-week infection doub				-0.0864	-0.0832	-0.0502
+					(0.0536)	(0.0539)	(0.0444)
+Constant	Constant	1.1551***	1.1098***	1.3984***	25.2716***	25.4540***	25.6858***
+		(0.1606)	(0.1634)	(0.1546)	(0.2260)	(0.2400)	(0.2594)
+							
+Observations		215,073	211,071	200,721	561	550	462
+R-squared		0.123	0.110	0.093	0.905	0.902	0.929
+Robust standard errors in parentheses							
+*** p<0.01, ** p<0.05, * p<0.1							

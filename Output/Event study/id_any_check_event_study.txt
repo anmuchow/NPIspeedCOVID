@@ -1,0 +1,53 @@
+Dependent Variable: Event Study		
+		(1)
+VARIABLES	LABELS	Effect of NPIs on COVID-19 deaths per capita
+		
+timebefore35	timebefore35	0.066***
+		(0.008)
+timebefore31	timebefore31	-0.035**
+		(0.014)
+timebefore28	timebefore28	-0.007
+		(0.007)
+timebefore24	timebefore24	0.003
+		(0.003)
+timebefore21	timebefore21	-0.001
+		(0.003)
+timebefore17	timebefore17	-0.006***
+		(0.001)
+timebefore14	timebefore14	0.001
+		(0.004)
+timebefore10	timebefore10	-0.006
+		(0.004)
+timebefore7	timebefore7	-0.009***
+		(0.004)
+timebefore3	timebefore3	-0.012
+		(0.008)
+t0	t0	-0.012
+		(0.010)
+timeafter3	timeafter3	0.001
+		(0.012)
+timeafter7	timeafter7	0.019
+		(0.016)
+timeafter10	timeafter10	0.003
+		(0.017)
+timeafter14	timeafter14	0.012
+		(0.030)
+timeafter17	timeafter17	0.048*
+		(0.028)
+timeafter21	timeafter21	-0.017
+		(0.022)
+timeafter24	timeafter24	-0.013
+		(0.023)
+timeafter28	timeafter28	-0.081***
+		(0.030)
+timeafter31	timeafter31	-0.049
+		(0.071)
+timeafter35	timeafter35	-0.296***
+		(0.042)
+Constant	Constant	0.031**
+		(0.016)
+		
+Observations		141,480
+R-squared		0.127
+Robust standard errors in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		
